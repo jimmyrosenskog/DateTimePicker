@@ -1,0 +1,110 @@
+
+body {
+	font-family: Segoe UI, Arial, Helvetica, sans-serif;
+	background-color: #F0FFFF;
+}
+
+html, body {
+	padding: 0; /* Dett för att det finns en default paddig och margin i dessa element.*/
+	margin: 0;  /* Utan dessa så blir det en kant högst upp */
+}
+
+header, footer { /* Alla element i header och footer (kommatecken i mellan)*/
+	background-color: #CCEEEE;
+	border-radius: 5px;
+	padding:  20px;
+	text-align: center;
+	border: solid 1px #CCC;
+}
+
+footer {
+	padding:  10px;
+	font-size: 10px;
+}
+
+header div {
+	padding: -20px;
+	margin-right: 5px;
+	vertical-align: text-top;
+	font-weight: 500;
+}
+
+.monthButton, .yearButton, .daysButton, .selectYearButton {
+	text-align: center;
+	outline: 0;
+	background-color: #99CCFF;
+	color: black;
+	border-radius: 5px;
+	padding: 0px;
+	margin: 1px;
+	border-width: 0px;
+	outline: 0;
+	height: 19px;
+	width: 19px;
+}
+
+.yearButton, .selectYearButton {
+	height: 19px;
+	width: 48px;
+}
+
+.active_monthButton, .active_yearButton, .active_daysButton {
+	background-color: #99FFCC;
+}
+
+.daysButton {
+	display: block;
+	height: 32px;
+	width: 32px;
+}
+
+.invisible_daysButton {
+	background-color: #CCEEEE;
+}
+
+.dayHeader {
+	background-color: #CCEEEE;
+	color: black;
+	border-radius: 3px;
+	padding: 1px;
+	margin: 1px;
+}
+
+.daysTable, tr, td, th {
+	padding: 0px;
+	margin: 0px;
+	word-spacing: 0px;
+}
+
+#main {
+	border: solid 1px #CCC;
+	border-radius: 5px;
+	background-color: #F0FFDD;
+	text-align: center;
+	padding: 10px;
+	margin: 5px 0px 5px 0px; /* From top and clock wise margin: 5px 10px; /* 5 top and bottom, 10 left and rigth*/*/
+}
+
+#main p {
+	padding:  5px;
+	text-align: center;
+}
+
+.container {
+	/* width: 989px; */
+	width: 275px;
+	margin: 0 auto;
+	background-color: #F0FFFF;
+	padding: 5px;
+}
+
+#selectedDate {
+	padding:  10px;
+	font-size: 12x;
+	text-align: center;
+	min-height: 28px;
+	background-color: #CCEEEE;
+	border-radius: 20px;
+	margin: 5px;
+	border: solid 1px #CCC;
+}
